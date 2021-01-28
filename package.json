@@ -1,0 +1,28 @@
+{
+  "name": "jstraining04-promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "npx mocha -w --exit test/",
+    "test": "npx mocha --parallel test/",
+    "test:cov": "npx nyc --check-coverage --instrument --reporter=html --reporter=text npm test",
+    "start": "node src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoJaques/jstraining04-promises.git"
+  },
+  "keywords": [],
+  "author": "Leonardo Jaques<jaques.projetos@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoJaques/jstraining04-promises/issues"
+  },
+  "homepage": "https://github.com/LeonardoJaques/jstraining04-promises#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
